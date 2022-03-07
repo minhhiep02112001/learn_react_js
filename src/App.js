@@ -20,9 +20,9 @@ const products = [
 function App() {
   const [dataProduct, dispatch] = useReducer(productAction, products);
   
-  useEffect(() => {
-    console.log(dataProduct);
-  })
+  // useEffect(() => {
+  //   console.log(dataProduct);
+  // })
 
   const functionCreateProduct = (item) => {
     dispatch({
